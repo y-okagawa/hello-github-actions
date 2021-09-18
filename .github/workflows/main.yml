@@ -4,4 +4,4 @@ jobs:
   Echo:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/jobs/hello
+      - uses: ./.github/actions/hello
