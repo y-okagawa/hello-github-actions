@@ -1,0 +1,7 @@
+name: Main
+on: [push]
+jobs:
+  Echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello"
