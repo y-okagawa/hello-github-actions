@@ -1,5 +1,7 @@
 name: hello
+description: hello
 runs:
   using: "composite"
   steps:
     - run: echo "Hello Workflow Dispatch"
+      shell: bash
